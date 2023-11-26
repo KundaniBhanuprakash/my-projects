@@ -1,0 +1,177 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+
+.back .front{
+    width: 100%;
+    height: 100%;
+       
+    border: 1px solid black;
+    box-shadow: 0px 25px 25px 0px rgba(0,0,0,0.4);
+    width: 80%;
+    height: 85vh;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.back .front .menu{
+
+    
+    width: 100%;
+    height: 15%;
+
+  
+}
+.back .front .menu a{
+
+  
+    padding: 1%;
+    position:relative;
+    top: 50%;
+    left: 25%;
+    font-family: sans-serif;
+    color: rgb(17, 59, 186);
+    text-decoration: none;
+    font-size: 65%;
+    font-weight: 600;
+
+}
+.back .front .menu .start{
+        left: 30%;
+        padding-left: 5%;
+    
+        border-left:1px solid royalblue ;
+        text-align: center;
+
+
+}
+.back .front .menu .signIn{
+    left: 45%;
+    
+}
+
+.back .front .menu img{
+
+           width: 1.5%;
+           position: absolute;
+            top: 8.5%;      
+            left: 95%;
+            transition: all ease 0.1;
+            cursor: pointer;
+}
+.back .front .tri{
+
+    position:absolute;
+    width: 3%;
+    top: 5.5%;
+    left: 5%;
+}
+.back .front .cir{
+   
+    border: 3px solid rgb(8, 50, 174) ;
+    border-radius: 50%;
+    width: 3%;
+    height: 4vh;
+    position: absolute;
+    top: 7.5%;
+    left:6.5%;
+}
+.back .front h3{
+       color:  rgb(8, 50, 174);
+       position: absolute;
+       top: 7.4%;
+       left:10%;
+
+}
+.back .front .main{
+    
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    left: 60%;
+}
+.back .front h1{
+    font-size: 270%;
+    font-family: sans-serif;
+ 
+    color:  rgb(8, 50, 174);
+    position: absolute;
+       top: 21%;
+       left:5%;
+
+}
+.back .front h4{
+    font-size: 150%;
+    font-family: sans-serif;
+ 
+    color:  rgb(8, 50, 174);
+    position: absolute;
+       top: 45%;
+       left:5%;
+
+}
+.back .front hr{
+    background: linear-gradient(to right,#02ace4,#0b0d9c);
+    width: 9%;
+    height: 1.1vh;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+.back .front p{
+    font-size: 75%;
+    font-family: sans-serif;
+    color:  rgb(8, 50, 174);
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+.back .front .menu a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all ease 0.1;
+}
+   
+.back .front .starts{
+    border: 1px linear-gradient(#02ace4,#1113b1);
+    background: linear-gradient(to right,#02ace4,#0b0d9c);
+    padding: 1.5%;
+    border-radius: 15%;
+    position: relative;
+    top: 62%;
+    left: 5%;
+    outline: none;
+}
+.back .front .read{  
+ 
+border: 1px linear-gradient(to right,#08ade4,#1619cb);
+font-family: sans-serif;
+background: #fff;
+padding: 1.5%;
+border-radius: 15%;
+position: relative;
+top: 62%;
+left: 5%;
+
+}
+
+.back .front .fb,.insta,.twt{
+
+    width: 3%;
+   
+    padding: 0.5%;
+    position: relative;
+    top: 75%;
+    left: -21%;
+    
+}
+
+
+
+
+
+
