@@ -3,10 +3,14 @@
    padding: 0;
    box-sizing: border-box;
 }
-
-
+body{
+    background-image:url(./images/project-managemenr-goals.jpg);
+    background-position:center ;
+    background-size: cover;
+}
 
 .back .front{
+   background-color: #fff;
     width: 100%;
     height: 100%;
        
